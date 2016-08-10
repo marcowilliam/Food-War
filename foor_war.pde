@@ -23,13 +23,13 @@ void setup() {
 
   size(700, 500);
   //loading images
-  target = loadImage("target.png");
-  backGround1 = loadImage("backGround0.png");
-  backGround0 = loadImage("backGround1.png");
-  cloud = loadImage("cloud.png");
-  propeller1 = loadImage("propeller1.png");
-  propeller2 = loadImage("propeller2.png");
-  propeller3 = loadImage("propeller3.png");
+  target = loadImage("img/target.png");
+  backGround1 = loadImage("img/backGround0.png");
+  backGround0 = loadImage("img/backGround1.png");
+  cloud = loadImage("img/cloud.png");
+  propeller1 = loadImage("img/propeller1.png");
+  propeller2 = loadImage("img/propeller2.png");
+  propeller3 = loadImage("img/propeller3.png");
   //creating foods
   food[0] = new Food(105, 60, 60, 0.02, 0);
   food[1] = new Food(205, 230, 230, 0.02, 1);

@@ -1,7 +1,7 @@
 
 class Airplane extends Object {
 
-  PImage airplaneImg = loadImage("airplane1.png");
+  PImage airplaneImg = loadImage("img/airplane1.png");
 
   //Constructor 
   Airplane(float x, float y, float velocity) {
